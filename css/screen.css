@@ -1,0 +1,63 @@
+
+		
+		
+	/* =Shadow Nav
+	-------------------------------------------------------------------------- */
+		
+		/*#navMenu2 {
+			margin: 0 auto 50px auto;
+			padding: 50px 0 0 127px;
+			width: 497px;
+			min-height: 130px;
+			text-align: center;
+			background: url(../images/page-shadow.jpg) top center no-repeat;
+			list-style: none;
+			}
+			*/
+		#navMenu2 li {
+			margin-right: 15px;
+			width: 81px;
+			height: 72px;
+			position: relative;
+			float: left;
+			}
+			
+		#navMenu2 a, #navMenu2 a:visited, #navMenu2 a, #navMenu2 a:hover {
+			margin: 0 auto;
+			width: 69px;
+			height: 69px;
+			text-indent: -9999px;
+			overflow: hidden;
+			background: url(../images/icons4.png) no-repeat;
+			display: block;
+			position: relative;
+			z-index: 2;
+			}
+			
+		/* Button Colors */
+		
+		#navMenu2 li.imageOne {
+			background-position: -3px -1px;
+			}
+			
+		#navMenu2 li.imageTwo a {
+			background-position: -91px -1px;
+			}
+			
+		#navMenu2 li.imageFour a {
+			background-position: -181px -1px;
+			}
+			
+		#navMenu2 li.imageFive a {
+			background-position: -270px -1px;
+			}
+			
+		/* Button Shadow */
+		
+		#navMenu2 li img.shadow {
+			margin: 0 auto;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			}

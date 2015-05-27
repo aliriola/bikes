@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+	
+	
+	}
+	
+	/* layout*/
+	
+	
+#container {
+	position:relative;
+	margin:40px auto;
+	width:445px;
+	height:500px;
+	border:thin dotted black;
+	
+}
+	
+	#viewPort {
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+}
+
+	#navMenu {
+	padding-top:465px;	
+	
+	}
+	
+	#navMenu li {
+	float:left;
+	margin-right:-1px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 0.875em;
+	line-height: 1.428em;
+	font-family: baskerville,'palatino linotype','times new roman',serif;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: 0.143em;
+	height: 1.571em;
+	border-right:1px dotted #524C4C;
+
+	}
+	
+	#navMenu li a {
+		text-decoration:none;
+		color:#524C4C;
+	}
+	
+	#navMenu li a:hover {
+		text-decoration:none;
+		color:#730608;
+	}
+	
+	#navMenu ul {
+	width: 90%;
+	margin-left:0px;
+	margin-right:0px;
+	}
+	
+	#navMenu2 {
+    padding-top: 450px;
+}
+
+#navMenu2 li {
+    float: left;
+    margin-right: 8px;
+}
+
+#navMenu2 ul {
+    width: 90%;
+    margin: -25px 0 0 52px;
+}
+	
+/* picture display area */
+
+.imagePane {
+	background:url(../images/sprite.jpg);
+	height:445px;
+	
+	}
+	
+	
+.one {
+	background-position: 0px 0px;
+}
+
+.two {
+	background-position: -445px 0px;
+}
+
+.three {
+	
+	background-position: -890px 0px;
+}
+
+.four {
+	
+	background-position: -1335px 0px;
+}
+
+.five {
+	
+	background-position: -1780px 0px;
+}
+
+
+.fa-home {
+	padding-left: 8em;
+	padding-top: 3px;
+	text-decoration:none;
+}
+
+#home a {
+text-decoration:none;
+	color:#524C4C;	
+}
+
+#home a:hover {
+	text-decoration:none;
+		color:#730608;
+}
+
+#home2 {
+	padding-left:63em;
+	margin-top:-2em;
+	text-decoration:none;
+	
+	}
+.fa fa-eye {
+	padding-left: 8em;
+	padding-top: 3px;
+	text-decoration:none;
+	color:black;
+}
+
+#home2 a {
+text-decoration:none;
+	color:#524C4C;	
+}
+
+#home2 a:hover {
+	text-decoration:none;
+		color:#524C4C;
+}
